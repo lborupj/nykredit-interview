@@ -5,7 +5,7 @@ This is sample repository containing a basic JAX-RS web application.
 
 ## Get it!
 
-Clone this repository and create a branch for your work
+Clone this repository
 
 
 ## Build
@@ -63,7 +63,9 @@ GET http://localhost:7001/petstore/pets/mydog should return
 }
 ```
 
+## When done
 
+Either ZIP (remember to do a "mvn clean" before) the solution and send it to me (LAJE) OR upload sources to a git repository of your choice and send me a link
 
 
 
