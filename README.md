@@ -35,8 +35,8 @@ http://localhost:7001/petstore
 ## Tasks
 
 * Add a REST resource at path /pets
-    * GET operation for /pets/{id}
-    * PUT operation for /pets/{id}
+    * GET operation for /pets/{id} which consumes "application/json" and produces "application/json"
+    * PUT operation for /pets/{id} which consumes "application/json" and produces "application/json"
 
 The project includes a very simple PetRepository that may be injected into the resource exposure class. This repository will just keep instances in a non-persistent Map
 
